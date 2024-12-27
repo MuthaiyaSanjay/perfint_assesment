@@ -1,0 +1,57 @@
+﻿<Window x:Class="LogInApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LogInApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!-- Current DateTime Display -->
+        <TextBlock x:Name="TimeTextBlock"
+                   FontSize="20"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   Margin="10"/>
+
+        <!-- Battery Status Section -->
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0,10,10,20">
+
+            <TextBlock x:Name="BatteryStatusTextBlock"
+                       FontSize="14"
+                       VerticalAlignment="Center"
+                       Margin="15,0,1,0" RenderTransformOrigin="0.5,0.5" Width="108">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <!-- Added margin to separate from icon -->
+        </StackPanel>
+
+        <!-- Login Button -->
+        <Button x:Name="LoginButton"
+        Content="Login"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Bottom"
+        Width="100"
+        Height="40"
+        Margin="0,0,0,10"
+        Click="LoginButton_Click"/>
+
+        <Button Content="Shutdown"
+        HorizontalAlignment="Left"
+        Margin="514,393,0,15"
+        Click="ShutdownButton_Click" Width="80"/>
+
+
+        <Image x:Name="BatteryIcon" HorizontalAlignment="Left" Height="24" Margin="747,371,0,0" VerticalAlignment="Top" Width="30"  RenderTransformOrigin="0.545,0.771"/>
+    </Grid>
+</Window>
