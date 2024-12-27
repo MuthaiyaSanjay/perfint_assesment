@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\sanjay\\assessment\\CircleDetectionApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA21677-77D3-4876-AC2A-BB797AEC9C80}|CircleDetectionApp\\CircleDetectionApp.csproj|d:\\sanjay\\assessment\\circledetectionapp\\circledetectionapp\\circledetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA21677-77D3-4876-AC2A-BB797AEC9C80}|CircleDetectionApp\\CircleDetectionApp.csproj|solutionrelative:circledetectionapp\\circledetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CircleDetection.cs",
+              "DocumentMoniker": "D:\\sanjay\\assessment\\CircleDetectionApp\\CircleDetectionApp\\CircleDetection.cs",
+              "RelativeDocumentMoniker": "CircleDetectionApp\\CircleDetection.cs",
+              "ToolTip": "D:\\sanjay\\assessment\\CircleDetectionApp\\CircleDetectionApp\\CircleDetection.cs",
+              "RelativeToolTip": "CircleDetectionApp\\CircleDetection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:37:29.12Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
